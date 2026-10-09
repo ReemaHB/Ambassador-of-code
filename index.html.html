@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf6ef">
+  <title>سفير الكود | Code Ambassador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <div class="brand-titles">
+        <span class="brand-main" data-ar="سفير الكود" data-en="Code Ambassador">سفير الكود</span>
+        <span class="brand-sub" data-ar="ابدا تعلم البرمجه" data-en="Start Learning Coding">ابدا تعلم البرمجه</span>
+      </div>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="القائمة">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+      <a href="#languages" data-ar="لغات البرمجة" data-en="Languages">لغات البرمجة</a>
+      <a href="#about" data-ar="عن البرمجة" data-en="About coding">عن البرمجة</a>
+      <a href="#contact" data-ar="عن المطوّرة" data-en="About the creator">عن المطوّرة</a>
+    </div>
+    <button id="languageToggle" class="language-toggle">🇬🇧 English</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <span class="eyebrow" data-ar="خطوتك الأولى نحو المستقبل" data-en="Your first step into the future">خطوتك الأولى نحو المستقبل</span>
+      
+      <!-- العنوان الرئيسي مع خط تحت الكلمة الأولى -->
+      <h1 class="hero-title-custom">
+        <span class="main-title-text" data-ar="سفير الكود" data-en="Code Ambassador">سفير الكود</span>
+        <span class="hero-subtitle-line" data-ar="ابدا تعلم اساسيات البرمجه هنا" data-en="Start learning coding basics here">ابدا تعلم اساسيات البرمجه هنا</span>
+      </h1>
+
+      <p data-ar="من أول سطر كود إلى أول مشروع لكِ. اكتشفي لغات البرمجة وتعلّمي بأسلوب تفاعلي متقدم يضم 12 موضوعاً شاملاً لكل لغة."
+         data-en="From your first line of code to your first project. Explore programming languages with 12 comprehensive topics.">
+        من أول سطر كود إلى أول مشروع لكِ. اكتشفي لغات البرمجة وتعلّمي بأسلوب تفاعلي متقدم يضم 12 موضوعاً شاملاً لكل لغة.
+      </p>
+      <div class="hero-actions">
+        <a href="#languages" class="btn btn-primary" data-ar="ابدا التعلم ←" data-en="Start learning →">ابدا التعلم ←</a>
+        <a href="#about" class="btn btn-outline" data-ar="اكتشفي المزيد" data-en="Discover more">اكتشفي المزيد</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>7</strong><span data-ar="لغات برمجية" data-en="Languages">لغات برمجية</span></div>
+        <div><strong>84+</strong><span data-ar="موضوعاً تدريبياً" data-en="Topics">موضوعاً تدريبياً</span></div>
+        <div><strong>∞</strong><span data-ar="فرص للتعلم" data-en="Ways to learn">فرص للتعلم</span></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="floating-chip chip-one">HTML</div>
+      <div class="floating-chip chip-two">Python</div>
+      <div class="editor-window">
+        <div class="editor-top"><span></span><span></span><span></span><small>code-ambassador.js</small></div>
+        <pre><span class="syntax-purple">const</span> coder = <span class="syntax-green">"Rema"</span>;
+<span class="syntax-purple">function</span> <span class="syntax-yellow">startLearning</span>() {
+  <span class="syntax-purple">return</span> <span class="syntax-green">"Success!"</span>;
+}
+<span class="syntax-blue">console</span>.log(startLearning());</pre>
+        <div class="editor-bottom"><span>● <span data-ar="جاهزة للتعلم" data-en="Ready">جاهزة للتعلم</span></span><span>100% ✨</span></div>
+      </div>
+      <div class="hero-decoration">✳</div>
+    </div>
+  </section>
+
+  <section class="section languages-section" id="languages">
+    <div class="section-heading">
+      <span class="eyebrow" data-ar="اختاري مسارك" data-en="Choose your path">اختاري مسارك</span>
+      <h2 data-ar="اكتشفي لغات البرمجة" data-en="Explore programming languages">اكتشفي لغات البرمجة</h2>
+      <p data-ar="اضغطي على 'استكشف اللغة' لعرض الـ 12 موضوعاً والأكواد الخاصة بكل مسار."
+         data-en="Click 'Explore Language' to view the 12 topics and codes for each path.">اضغطي على 'استكشف اللغة' لعرض الـ 12 موضوعاً والأكواد الخاصة بكل مسار.</p>
+    </div>
+
+    <div class="language-grid">
+      <div class="language-card">
+        <span class="language-logo logo-html">5</span>
+        <span class="language-tag" data-ar="تطوير الويب" data-en="Web dev">تطوير الويب</span>
+        <strong>HTML</strong>
+        <p data-ar="هيكل صفحات الويب والعناوين والوسوم" data-en="Web structure & headings">هيكل صفحات الويب والعناوين والوسوم</p>
+        <button class="btn btn-primary explore-btn" data-language="html" data-ar="استكشف اللغة ←" data-en="Explore Language →">استكشف اللغة ←</button>
+      </div>
+      <div class="language-card">
+        <span class="language-logo logo-css">3</span>
+        <span class="language-tag" data-ar="التصميم والستايل" data-en="Design">التصميم والستايل</span>
+        <strong>CSS</strong>
+        <p data-ar="الألوان والتنسيقات والتخطيط" data-en="Colors, styling & layouts">الألوان والتنسيقات والتخطيط</p>
+        <button class="btn btn-primary explore-btn" data-language="css" data-ar="استكشف اللغة ←" data-en="Explore Language →">استكشف اللغة ←</button>
+      </div>
+      <div class="language-card">
+        <span class="language-logo logo-js">JS</span>
+        <span class="language-tag" data-ar="التفاعل والمصفوفات" data-en="Interactivity">التفاعل والمصفوفات</span>
+        <strong>JavaScript</strong>
+        <p data-ar="المتغيرات والمصفوفات والدوال" data-en="Variables, arrays & functions">المتغيرات والمصفوفات والدوال</p>
+        <button class="btn btn-primary explore-btn" data-language="javascript" data-ar="استكشف اللغة ←" data-en="Explore Language →">استكشف اللغة ←</button>
+      </div>
+      <div class="language-card">
+        <span class="language-logo logo-python">Py</span>
+        <span class="language-tag" data-ar="الذكاء الاصطناعي" data-en="AI & Data">الذكاء الاصطناعي</span>
+        <strong>Python</strong>
+        <p data-ar="بناء الخوارزميات والبيانات" data-en="Algorithms & data">بناء الخوارزميات والبيانات</p>
+        <button class="btn btn-primary explore-btn" data-language="python" data-ar="استكشف اللغة ←" data-en="Explore Language →">استكشف اللغة ←</button>
+      </div>
+      <div class="language-card">
+        <span class="language-logo logo-cpp">C++</span>
+        <span class="language-tag" data-ar="برمجة الأنظمة" data-en="Systems">برمجة الأنظمة</span>
+        <strong>C++</strong>
+        <p data-ar="الكائنات والأداء المتقدم" data-en="Objects & performance">الكائنات والأداء المتقدم</p>
+        <button class="btn btn-primary explore-btn" data-language="cpp" data-ar="استكشف اللغة ←" data-en="Explore Language →">استكشف اللغة ←</button>
+      </div>
+      <div class="language-card">
+        <span class="language-logo logo-java">J</span>
+        <span class="language-tag" data-ar="تطبيقات وبرامج" data-en="Apps">تطبيقات وبرامج</span>
+        <strong>Java</strong>
+        <p data-ar="الكلاسات والبرمجة الكائنية" data-en="Classes & OOP">الكلاسات والبرمجة الكائنية</p>
+        <button class="btn btn-primary explore-btn" data-language="java" data-ar="استكشف اللغة ←" data-en="Explore Language →">استكشف اللغة ←</button>
+      </div>
+      <div class="language-card">
+        <span class="language-logo logo-emu">8086</span>
+        <span class="language-tag" data-ar="لغة التجميع" data-en="Assembly">لغة التجميع</span>
+        <strong>EMU8086</strong>
+        <p data-ar="سجلات المعالج والتعليمات" data-en="Registers & instructions">سجلات المعالج والتعليمات</p>
+        <button class="btn btn-primary explore-btn" data-language="emu8086" data-ar="استكشف اللغة ←" data-en="Explore Language →">استكشف اللغة ←</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section learning-section" id="learningArea" hidden>
+    <div class="learning-header">
+      <div><span class="eyebrow" data-ar="مساحة التعلم" data-en="Learning space">مساحة التعلم</span><h2 id="learningTitle">HTML</h2><p id="learningDescription"></p></div>
+      <button id="closeLearning" class="btn btn-outline" data-ar="إغلاق الدروس ✕" data-en="Close lessons ✕">إغلاق الدروس ✕</button>
+    </div>
+    <div class="learning-progress"><div class="progress-label"><span id="progressText"></span><span id="progressPercent"></span></div><div class="progress-track"><span id="progressBar"></span></div></div>
+    <div class="lesson-layout">
+      <aside class="lesson-sidebar">
+        <h3 data-ar="12 موضوعاً في المسار" data-en="12 Topics in Path">12 موضوعاً في المسار</h3>
+        <p class="sidebar-hint" data-ar="اختاري أي موضوع للاستكشاف" data-en="Select any topic">اختاري أي موضوع للاستكشاف</p>
+        <div id="lessonList" class="lesson-list"></div>
+      </aside>
+      <article id="lessonContent" class="lesson-content" aria-live="polite"></article>
+    </div>
+  </section>
+
+  <!-- قسم التقرير الموسع عن البرمجة -->
+  <section class="section about-section" id="about">
+    <div class="about-panel report-panel">
+      <div class="about-symbol">&lt;/&gt;</div>
+      <div class="about-copy">
+        <span class="eyebrow" data-ar="تقرير شامل: المعرفة تصنع المستقبل" data-en="Comprehensive Report: Knowledge Shapes the Future">تقرير شامل: المعرفة تصنع المستقبل</span>
+        <h2 data-ar="ما هي البرمجة؟ ولماذا أصبحت عصب العصر الحديث؟" data-en="What is programming, and why has it become the backbone of the modern era?">ما هي البرمجة؟ ولماذا أصبحت عصب العصر الحديث؟</h2>
+        
+        <div class="report-content">
+          <p data-ar="تُعرف البرمجة بأنها عملية إعطاء تعليمات دقيقة ومسلسلة للحاسوب أو الأجهزة الذكية لتنفيذ مهام محددة وحل مشكلات معقدة. إنها لغة التفاهم بين عقل الإنسان وقدرات الآلة الهائلة."
+             data-en="Programming is defined as the process of giving precise instructions to computers to execute specific tasks.">
+            تُعرف البرمجة بأنها عملية إعطاء تعليمات دقيقة ومسلسلة للحاسوب أو الأجهزة الذكية لتنفيذ مهام محددة وحل مشكلات معقدة. إنها لغة التفاهم بين عقل الإنسان وقدرات الآلة الهائلة، حيث تتحول الأفكار الإبداعية المجردة إلى تطبيقات رقمية ومواقع ويب وأنظمة تشغيل تخدم ملايين البشر حول العالم.
+          </p>
+          
+          <h4 data-ar="أهمية دراسة وتعلّم البرمجة:" data-en="The Importance of Learning Programming:">أهمية دراسة وتعلّم البرمجة:</h4>
+          <ul>
+            <li data-ar="تطوير التفكير المنطقي والتحليلي: تساعد المبرمج على تفكيك المشكلات الكبرى إلى أجزاء صغيرة يسهل حلها خطوة بخطوة.">
+              <strong>تطوير التفكير المنطقي والتحليلي:</strong> تساعد المبرمج على تفكيك المشكلات الكبرى إلى أجزاء صغيرة يسهل حلها خطوة بخطوة.
+            </li>
+            <li data-ar="مواكبة سوق العمل المستقبلية: أصبحت البرمجة مهارة أساسية في معظم القطاعات الطبية، الهندسية، والمالية وليست حكراً على علوم الحاسب وحدها.">
+              <strong>مواكبة سوق العمل المستقبلية:</strong> أصبحت البرمجة مهارة أساسية في معظم القطاعات الحيوية وليست حكراً على علوم الحاسب وحدها.
+            </li>
+            <li data-ar="تحويل الأفكار إلى واقع: تمنحك البرمجة القدرة على ابتكار وتطوير برمجيات خاصة بك دون الحاجة للاعتماد على حلول جاهزة.">
+              <strong>تحويل الأفكار إلى واقع:</strong> تمنحك القدرة على ابتكار وتطوير مشاريعك الخاصة وتحويل أفكارك الملهمة إلى واقع ملموس.
+            </li>
+          </ul>
+
+          <p data-ar="منصة 'سفير الكود' صُممت خصيصاً لتكون رفيقتك في هذه الرحلة الممتعة، حيث توفر مسارات تعليمية متكاملة ومقسمة إلى 12 موضوعاً لكل لغة مع تطبيقات عملية تدعم طموحك التقني."
+             data-en="The Code Ambassador platform is designed to be your companion in this journey.">
+            منصة "سفير الكود" صُممت خصيصاً لتكون رفيقتك في هذه الرحلة الممتعة، حيث توفر مسارات تعليمية متكاملة ومقسمة إلى 12 موضوعاً لكل لغة مع اختبارات وتطبيقات عملية تدعم شغفك وطموحك التقني نحو الاحتراف.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="#home" class="brand footer-logo">
+        <span class="brand-icon">&lt;/&gt;</span>
+        <div class="brand-titles">
+          <span class="brand-main" data-ar="سفير الكود" data-en="Code Ambassador">سفير الكود</span>
+          <span class="brand-sub" data-ar="ابدا تعلم البرمجه" data-en="Start Learning Coding">ابدا تعلم البرمجه</span>
+        </div>
+      </a>
+      <p data-ar="مساحة تعليمية متكاملة تساعدك على اكتشاف البرمجة والتقدم فيها بإتقان."
+         data-en="An integrated learning space helping you master programming.">مساحة تعليمية متكاملة تساعدك على اكتشاف البرمجة والتقدم فيها بإتقان.</p>
+    </div>
+    
+    <div class="footer-column creator-card">
+      <span class="creator-badge" data-ar="تصميم وتطوير" data-en="Design & Dev">تصميم وتطوير</span>
+      <div class="creator-profile">
+        <div class="creator-avatar">R</div>
+        <div class="creator-details">
+          <strong>ريما</strong>
+          <span data-ar="مُطوّرة منصة سفير الكود" data-en="Code Ambassador Creator">مُطوّرة منصة سفير الكود</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span data-ar="صُنع بشغف للتعلّم والإبداع ♡" data-en="Made with a passion for learning and creativity ♡">صُنع بشغف للتعلّم والإبداع ♡</span>
+    <span>© <span id="currentYear"></span> Code Ambassador</span>
+  </div>
+</footer>
+
+<button id="chatLauncher" class="chat-launcher" aria-label="فتح المساعد الذكي" aria-expanded="false">
+  <span class="launcher-spark">✦</span><span class="launcher-label" data-ar="اسأليني" data-en="Ask me">اسأليني</span>
+</button>
+
+<aside id="chatWidget" class="chat-widget" aria-label="المساعد الذكي" hidden>
+  <div class="chat-widget-header">
+    <div class="chat-avatar">✦</div>
+    <div class="chat-title">
+      <strong data-ar="مساعد سفير الكود الذكي" data-en="Code Ambassador AI">مساعد سفير الكود الذكي</strong>
+      <span><i class="online-dot"></i><span data-ar="اختر لغة أو اسأل بحرية" data-en="Choose language or ask freely">اختر لغة أو اسأل بحرية</span></span>
+    </div>
+    <button id="newChat" class="chat-header-btn" title="محادثة جديدة">↻</button>
+    <button id="closeChat" class="chat-header-btn" aria-label="إغلاق المحادثة">×</button>
+  </div>
+  <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
+  
+  <div class="chat-quick-options" id="chatQuickOptions">
+    <button class="quick-opt" data-topic="html">HTML</button>
+    <button class="quick-opt" data-topic="css">CSS</button>
+    <button class="quick-opt" data-topic="javascript">JavaScript</button>
+    <button class="quick-opt" data-topic="python">Python</button>
+    <button class="quick-opt" data-topic="cpp">C++</button>
+    <button class="quick-opt" data-topic="java">Java</button>
+  </div>
+
+  <form id="chatForm" class="chat-form">
+    <textarea id="chatInput" rows="1" required data-placeholder-ar="اكتبي سؤالك هنا..." data-placeholder-en="Type your question..." placeholder="اكتبي سؤالك هنا..."></textarea>
+    <button type="submit" id="sendButton" aria-label="إرسال">➤</button>
+  </form>
+  <p class="chat-disclaimer" data-ar="اسأليني عن أي لغة وسأجيبك فوراً." data-en="Ask me about any language.">اسأليني عن أي لغة وسأجيبك فوراً.</p>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
